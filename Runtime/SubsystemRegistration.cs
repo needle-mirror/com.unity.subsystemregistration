@@ -1,5 +1,9 @@
 ﻿using System.Collections.Generic;
 
+#if !UNITY_2019_2_OR_NEWER
+using UnityEngine.Experimental;
+#endif
+
 namespace UnityEngine
 {
     public static class SubsystemRegistration

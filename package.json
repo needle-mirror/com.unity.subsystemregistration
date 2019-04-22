@@ -1,8 +1,8 @@
 {
   "name": "com.unity.subsystemregistration",
   "displayName": "Subsystem Registration",
-  "version": "1.0.4",
-  "unity": "2019.2",
+  "version": "1.0.5",
+  "unity": "2018.3",
   "description": "Provides internal registration mechanism for standalone subsystems.  It allows a standalone subsystem to inform the Subsystem Manager of its existence.",
   "keywords": [
     "subsystem",
@@ -10,10 +10,9 @@
     "internal"
   ],
   "dependencies": {},
-  "unityRelease": "0a8",
   "repository": {
     "type": "git",
     "url": "git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git",
-    "revision": "ff55965ab8ecf0d2dcbf8669efed993382af8cd4"
+    "revision": "e9486513d5b8f53575956ee490eb1548a249ec03"
   }
 }

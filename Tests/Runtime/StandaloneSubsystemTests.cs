@@ -10,6 +10,10 @@ using Unity.Subsystem.Registration;
 using UnityEngine;
 using UnityEngine.TestTools;
 
+#if !UNITY_2019_2_OR_NEWER
+using UnityEngine.Experimental;
+#endif
+
 namespace Unity.Subsystem.Registration
 {
     [TestFixture]
@@ -37,7 +41,11 @@ namespace Unity.Subsystem.Registration
 
             public override void Stop() { StopCalled = true; IsRunning = false; }
 
+#if UNITY_2019_2_OR_NEWER
             public override bool running { get { return IsRunning; } }
+#else
+            public bool running { get { return IsRunning; } }
+#endif
 
             public override int GetNumThings()
             {
