@@ -35,7 +35,11 @@ namespace Unity.Subsystem.Registration
 
         public class ConcreteTestSubsystem : TestSubsystem
         {
+#if UNITY_2019_3_OR_NEWER
+            protected override void OnDestroy() { DestroyCalled = true; }
+#else
             public override void Destroy() { DestroyCalled = true; }
+#endif
 
             public override void Start() { StartCalled = true; IsRunning = true; }
 
