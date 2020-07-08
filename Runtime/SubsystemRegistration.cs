@@ -4,6 +4,7 @@
 using UnityEngine.Experimental;
 #endif
 
+#pragma warning disable CS0618
 namespace UnityEngine
 {
     public static class SubsystemRegistration
@@ -30,4 +31,5 @@ namespace UnityEngine
             return true;
         }
     }
- }
+}
+#pragma warning restore CS0618

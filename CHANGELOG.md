@@ -4,6 +4,13 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2020-07-08
+- Add dependency on com.unity.modules.subsystems.
+- Minimum supported Unity version changed to 2019.4.
+
+## [1.0.7] - 2020-04-13
+- Add pragma guard for deprecation of code in trunk.
+
 ## [1.0.6] - 2019-08-28
 - Update to accommodate internal Subsystem API change.
 
