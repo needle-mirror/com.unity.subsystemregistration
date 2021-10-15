@@ -9,9 +9,4 @@ This package is a dependency for any other packages that defines new types of su
 
 This version of `com.unity.subsystemregistration` is compatible with the following versions of the Unity Editor:
 
-* 2018.3 and later (required)
-
-
-
-
-
+* 2019.4 and later (required)
