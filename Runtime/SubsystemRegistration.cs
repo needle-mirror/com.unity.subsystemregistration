@@ -7,6 +7,9 @@ using UnityEngine.Experimental;
 #pragma warning disable CS0618
 namespace UnityEngine
 {
+    /// <summary>
+    /// Methods for registering [SubsystemDescriptor](xref:UnityEngine.SubsystemDescriptor) with the Subsystem Manager.
+    /// </summary>
     public static class SubsystemRegistration
     {
         static readonly List<SubsystemDescriptor> k_SubsystemDescriptors = new List<SubsystemDescriptor>();
